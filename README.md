@@ -1,4 +1,6 @@
-# # # #
+# # #
+
+#### The discussion part
 
 The forum is built by String MVC+Mybatis+JSP, and the page is mainly written by Bootstrap, which is used as the SSM basic project.
 
@@ -14,6 +16,15 @@ The Build id: 20190614-1200
 - Tomcat: v9.0
 - Web. XML: 4.0
 - MySQL: 8.0.16
+
+Functions: 
+
+1. In the forum home, choose which specific games discussion.  
+
+2. After entering into a game, it would shows the discussion
+
+3. people who already login can post in the forum.
+4. people who already login can reply other posts
 
 Note: **
 
