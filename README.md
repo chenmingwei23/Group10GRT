@@ -24,7 +24,10 @@ Functions:
 2. After entering into a game, it would shows the discussion
 
 3. people who already login can post in the forum.
+
 4. people who already login can reply other posts
+
+   
 
 Note: **
 
@@ -34,3 +37,4 @@ Note: **
 'Use as Source Folder' added, otherwise the configuration file cannot be loaded.
 
 3. If you need to display the image, change the image address of the data.
+
