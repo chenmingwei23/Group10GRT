@@ -15,7 +15,8 @@
             <div class="collapse navbar-collapse" id="example-navbar-collapse"> 
                 <!-- 左边 -->
                 <ul class="nav navbar-nav">  
-                    <li><a href="${pageContext.request.contextPath }/forums">Forums</a></li>  
+                    <li><a href="${pageContext.request.contextPath }/forums">Forums</a></li>
+                    <li><a href="${pageContext.request.contextPath }/score">Scores</a></li>
                  </ul> <!-- /左边 -->
                 <!-- 右边 -->
                 <ul class="nav navbar-nav navbar-right">
