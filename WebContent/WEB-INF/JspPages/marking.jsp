@@ -63,25 +63,10 @@
 </head>
 
 <body>
-    <!-- Header -->
-    <div class="pricing-header px-10 py-10 pb-md-4 mx-auto">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="/login">
-                <b> GRAND RUNETERRA TAVERN </b>
-            </a>
-  
-            <div class="ml-auto">
-                <form action="/reset" method="GET" style="display:inline; padding-right: 10px;">
-                    <button class="btn btn-outline-primary my-2 my-sm-0" value="Login"> Change Password
-                    </button>
-                </form>
-                <form action="/logout?_method=DELETE" method="POST" style="display:inline">
-                    <button class="btn btn-outline-primary" type="submit" value="Login"> Sign Out </button>
-                </form>
-            </div>
-        </nav>
-    </div>
 
+
+    <jsp:include page="top.jsp" ></jsp:include>
+    
     <main role="main" class="col-md px-4 \">
         <!--overall-->
         <div id="marking"
@@ -90,7 +75,7 @@
         </div>
     </main>
     
-    <p style="text-align:right; padding-right: 20px"> <a href="http://localhost:8080/group10/marking2"> Previous tournament </a>
+    <p style="text-align:right; padding-right: 20px"> <a href="http://localhost:8080/grt/marking2"> Previous tournament </a>
     </p>
     
     <!-- TITLE (Tournament Name) -->
@@ -235,7 +220,7 @@
 	<br>
 	
     <!-- Footer -->
-    <%@ include file = "footer.jsp" %>
+    <jsp:include page="bottom.jsp" flush="true"></jsp:include>
 
 
     <! -- Bootstrap -->

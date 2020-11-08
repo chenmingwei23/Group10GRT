@@ -114,7 +114,7 @@ public class RatingController {
 
 		
 		
-		return "marking";
+		return "JspPages/marking";
 	}
 	
 	@RequestMapping(value = "/markingprocess", method = RequestMethod.GET)
@@ -206,7 +206,7 @@ public class RatingController {
 
 		
 		
-		return "marking2";
+		return "JspPages/marking2";
 	}
 	
 	@RequestMapping(value = "/marking3", method = RequestMethod.GET)
@@ -291,6 +291,6 @@ public class RatingController {
 
 		
 		
-		return "marking3";
+		return "JspPages/marking3";
 	}
 }

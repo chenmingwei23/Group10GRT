@@ -17,6 +17,7 @@
                 <ul class="nav navbar-nav">  
                     <li><a href="${pageContext.request.contextPath }/forums">Forums</a></li>
                     <li><a href="${pageContext.request.contextPath }/score">Scores</a></li>
+                    <li><a href="${pageContext.request.contextPath }/marking">Marking</a></li>
                  </ul> <!-- /左边 -->
                 <!-- 右边 -->
                 <ul class="nav navbar-nav navbar-right">
