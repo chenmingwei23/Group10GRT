@@ -49,6 +49,11 @@ public class TblUserController {
 		return "JspPages/userdata";
 	}
 	
+	@RequestMapping("/score")
+	public String score() {
+		return "JspPages/score";
+	}
+	
 	//profile
 	@RequestMapping("/userinfo")
 	public String UserInfo() {

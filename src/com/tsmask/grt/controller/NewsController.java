@@ -11,29 +11,29 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class NewsController {
 	private static final Logger logger = LoggerFactory.getLogger(NewsController.class);
-	@RequestMapping(value = "/News", method = RequestMethod.GET)
+	@RequestMapping(value = "/news", method = RequestMethod.GET)
 	public String News(Locale locale, Model model) {
 		logger.info("News page");
-		return "News";
+		return "JspPages/News";
 	}
-	@RequestMapping(value = "/News2", method = RequestMethod.GET)
+	@RequestMapping(value = "/news2", method = RequestMethod.GET)
 	public String News2(Locale locale, Model model) {
 		logger.info("News page");
-		return "News2";
+		return "JspPages/News2";
 	}
-	@RequestMapping(value = "/News3", method = RequestMethod.GET)
+	@RequestMapping(value = "/news3", method = RequestMethod.GET)
 	public String News3(Locale locale, Model model) {
 		logger.info("News page");
-		return "News3";
+		return "JspPages/News3";
 	}
-	@RequestMapping(value = "/News4", method = RequestMethod.GET)
+	@RequestMapping(value = "/news4", method = RequestMethod.GET)
 	public String News4(Locale locale, Model model) {
 		logger.info("News page");
-		return "News4";
+		return "JspPages/News4";
 	}
-	@RequestMapping(value = "/News5", method = RequestMethod.GET)
+	@RequestMapping(value = "/news5", method = RequestMethod.GET)
 	public String News5(Locale locale, Model model) {
 		logger.info("News page");
-		return "News5";
+		return "JspPages/News5";
 	}
 }

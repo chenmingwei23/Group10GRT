@@ -1,24 +1,37 @@
 <!-- Author: Daniel Saverimuttu -->
 
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%response.setContentType("text/html");response.setCharacterEncoding("utf-8"); %>
+
 <!DOCTYPE html>
 <html>
 
 <head>
-    <title>Marking Dota</title>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript" src="/js/main.js"></script>
-
-    <link href="/css/style.css" rel="stylesheet" type="text/css">
-    <!--Bootstrap CSS-->
-    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
+     <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="ELEC5619 GROUP_10"/>
+    <meta name="description" content="SSM"/>
+  <title>Forunms-G​RAND​ R​UNETERRA​ T​AVERN​</title>
+  	<link rel="apple-touch-icon" href="images/icon.png">
+  	<link rel="icon" href="images/icon.png">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    
+    
+    <!-- CSS -->    
     <style> 
+    .panel-primarys {border-color: #fd7b5d; }
+    .panel-titles {margin-top: 0; margin-bottom: 0; font-size: 16px; color: #004975; text-shadow: 1px 2px 1px; }
+    .panel-headings {padding: 10px 15px; border-bottom: 1px solid transparent; border-top-left-radius: 3px; border-top-right-radius: 3px; font-size: 16px;font-weight: 700;background-color: #fd7b5d;}
+    .total {text-align: center;border: 1px solid #fd7b5d;border-radius: 5px;margin-bottom: 30px;display: block;background-color: #fcf8e3}
+    .total div p em {display: block; font-size: 40px; line-height: 80px; font-weight: 400; } 
+    .total div p span {display: block; font-size: 14px; } 
+    
 	.container {
 	  	display: flex;
   		align-items: center;

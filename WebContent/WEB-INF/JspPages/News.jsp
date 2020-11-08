@@ -18,7 +18,6 @@
 </head>
 <body>
  <!-- Header -->
-    <%@ include file = "header.jsp" %>
     
     <div class="col-md-8">
 		<nav>
