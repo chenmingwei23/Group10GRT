@@ -21,10 +21,19 @@ Functions:
 
 1. In the forum home, choose which specific games discussion.  
 
+   ![image-20201108225433675](/Users/jiyan/Library/Application Support/typora-user-images/image-20201108225433675.png)
+
 2. After entering into a game, it would shows the discussion
 
+   ![image-20201108225450500](/Users/jiyan/Library/Application Support/typora-user-images/image-20201108225450500.png)
+
 3. people who already login can post in the forum.
+
+   ![image-20201108225502940](/Users/jiyan/Library/Application Support/typora-user-images/image-20201108225502940.png)
+
 4. people who already login can reply other posts
+
+   ![image-20201108225514705](/Users/jiyan/Library/Application Support/typora-user-images/image-20201108225514705.png)
 
 Note: **
 
