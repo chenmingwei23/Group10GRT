@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tsmask.grt.mapper.TblPostMapper">
+  <resultMap id="BaseResultMap" type="com.tsmask.grt.pojo.TblPost">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="forum_id" jdbcType="INTEGER" property="forumId" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="pic" jdbcType="VARCHAR" property="pic" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="views" jdbcType="INTEGER" property="views" />
+    <result column="regens" jdbcType="INTEGER" property="regens" />
+  </resultMap>
+  <resultMap extends="BaseResultMap" id="ResultMapWithText" type="com.tsmask.grt.pojo.TblPost">
+    <result column="content" jdbcType="LONGNVARCHAR" property="content" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, forum_id, user_id, title, pic, time, views, regens
+  </sql>
+  <sql id="Text_Column">
+    content
+  </sql>
+  
+  <select id="findAll" resultMap="ResultMapWithText">
+    select
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Text_Column" />
+    from tbl_post
+  </select>
+  <select id="findByPageViewsDESC" resultMap="ResultMapWithText">
+    select
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Text_Column" />
+    from tbl_post ORDER BY views DESC
+  </select>
+  <select id="findByID" parameterType="java.lang.Integer" resultMap="ResultMapWithText">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Text_Column" />
+    from tbl_post
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <select id="findByForumID" parameterType="java.lang.Integer" resultMap="ResultMapWithText">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Text_Column" />
+    from tbl_post
+    where forum_id = #{forumId,jdbcType=INTEGER}
+  </select>
+  <select id="count" resultType="java.lang.Long">
+    select count(*) from tbl_post
+  </select>
+  <insert id="insertSelective" parameterType="com.tsmask.grt.pojo.TblPost">
+    insert into tbl_post
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="forumId != null">
+        forum_id,
+      </if>
+      <if test="userId != null">
+        user_id,
+      </if>
+      <if test="title != null">
+        title,
+      </if>
+      <if test="time != null">
+        time,
+      </if>
+      <if test="pic != null">
+        pic,
+      </if>
+      <if test="regens != null">
+        regens,
+      </if>
+      <if test="views != null">
+        views,
+      </if>
+      <if test="content != null">
+        content,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="forumId != null">
+        #{forumId,jdbcType=INTEGER},
+      </if>
+      <if test="userId != null">
+        #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="title != null">
+        #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="time != null">
+        #{time,jdbcType=TIMESTAMP},
+      </if>
+      <if test="pic != null">
+        #{pic,jdbcType=VARCHAR},
+      </if>
+      <if test="regens != null">
+        #{regens,jdbcType=INTEGER},
+      </if>
+      <if test="views != null">
+        #{views,jdbcType=INTEGER},
+      </if>
+      <if test="content != null">
+        #{content,jdbcType=LONGNVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByMapSelective" parameterType="Map">
+    update tbl_post
+    <set>
+      <if test="forumId != null">
+        forum_id = #{forumId,jdbcType=INTEGER},
+      </if>
+      <if test="userId != null">
+        user_id = #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="title != null">
+        title = #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="time != null">
+        time = #{time,jdbcType=TIMESTAMP},
+      </if>
+      <if test="pic != null">
+        pic = #{pic,jdbcType=VARCHAR},
+      </if>
+      <if test="regens != null">
+        regens = #{regens,jdbcType=INTEGER},
+      </if>
+      <if test="views != null">
+        views = #{views,jdbcType=INTEGER},
+      </if>
+      <if test="content != null">
+        content = #{content,jdbcType=LONGNVARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  
+</mapper>

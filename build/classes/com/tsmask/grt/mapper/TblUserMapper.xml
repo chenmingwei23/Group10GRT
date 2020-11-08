@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tsmask.grt.mapper.TblUserMapper">
+  <resultMap id="BaseResultMap" type="com.tsmask.grt.pojo.TblUser">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="qq" jdbcType="VARCHAR" property="qq" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="sex" jdbcType="VARCHAR" property="sex" />
+    <result column="birthday" jdbcType="VARCHAR" property="birthday" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="avatar" jdbcType="VARCHAR" property="avatar" />
+    <result column="qianming" jdbcType="VARCHAR" property="qianming" />
+    <result column="registr_time" jdbcType="TIMESTAMP" property="registrTime" />
+    <result column="registr_ip" jdbcType="VARCHAR" property="registrIp" />
+    <result column="signin_num" jdbcType="INTEGER" property="signinNum" />
+    <result column="signin_points" jdbcType="INTEGER" property="signinPoints" />
+    <result column="exp" jdbcType="INTEGER" property="exp" />
+    <result column="grade" jdbcType="INTEGER" property="grade" />
+    <result column="positi" jdbcType="VARCHAR" property="positi" />
+    <result column="login_ip" jdbcType="VARCHAR" property="loginIp" />
+    <result column="login_time" jdbcType="TIMESTAMP" property="loginTime" />
+    <result column="login_old_time" jdbcType="TIMESTAMP" property="loginOldTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, password, username, phone, qq, email, sex, birthday, address, avatar, 
+    qianming, registr_time, registr_ip, signin_num, signin_points, exp, grade, 
+    positi, login_ip, login_time, login_old_time
+  </sql>
+  
+  <select id="findAll" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from tbl_user
+  </select>
+  <select id="findByID" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from tbl_user
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <select id="findByUserName" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from Tbl_User
+    where username = #{username,jdbcType=VARCHAR}
+  </select>
+  <select id="findByPhoneNumAndPassword" parameterType="com.tsmask.grt.pojo.TblUser" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from tbl_user
+    where phone = #{phone,jdbcType=VARCHAR}
+    and password = #{password,jdbcType=VARCHAR}
+  </select>
+  <select id="findByUserNameAndPassword" parameterType="com.tsmask.grt.pojo.TblUser" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from tbl_user
+    where username = #{username,jdbcType=VARCHAR}
+    and password = #{password,jdbcType=VARCHAR}
+  </select>
+  <select id="findByEmail" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from tbl_user
+    where email = #{email,jdbcType=NVARCHAR}
+  </select>
+  <select id="count" resultType="java.lang.Long">
+    select count(*) from tbl_user
+  </select>
+  <delete id="deleteByID" parameterType="java.lang.Integer">
+    delete from tbl_user
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByUserName" parameterType="java.lang.String">
+    delete from Tbl_User
+    where username = #{username,jdbcType=NVARCHAR}
+  </delete>
+  <insert id="insertSelective" parameterType="com.tsmask.grt.pojo.TblUser">
+    insert into Tbl_User
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="username != null">
+        username,
+      </if>
+      <if test="password != null">
+        password,
+      </if>
+      <if test="phone != null">
+        phone,
+      </if>
+      <if test="qq != null">
+        qq,
+      </if>
+      <if test="email != null">
+        email,
+      </if>
+      <if test="registrTime != null">
+        registr_time,
+      </if>
+      <if test="registrIp != null">
+        registr_ip,
+      </if>
+      <if test="signinNum != null">
+        signin_num,
+      </if>
+      <if test="signinPoints != null">
+        signin_points,
+      </if>
+      <if test="grade != null">
+        grade,
+      </if>
+      <if test="positi != null">
+        positi,
+      </if>
+      <if test="exp != null">
+        exp,
+      </if>
+       <if test="sex != null">
+        sex,
+      </if>
+      <if test="birthday != null">
+        birthday,
+      </if>
+      <if test="address != null">
+        address,
+      </if>
+      <if test="avatar != null">
+        avatar,
+      </if>
+      <if test="qianming != null">
+        qianming,
+      </if>
+      <if test="loginIp != null">
+        login_ip,
+      </if>
+      <if test="loginTime != null">
+        login_time,
+      </if>
+      <if test="loginOldTime != null">
+        login_old_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="username != null">
+        #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null">
+        #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="phone != null">
+        #{phone,jdbcType=VARCHAR},
+      </if>
+      <if test="qq != null">
+        #{qq,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null">
+        #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="registrTime != null">
+        #{registrTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="registrIp != null">
+        #{registrIp,jdbcType=VARCHAR},
+      </if>
+      <if test="signinNum != null">
+        #{signinNum,jdbcType=INTEGER},
+      </if>
+      <if test="signinPoints != null">
+        #{signinPoints,jdbcType=INTEGER},
+      </if>
+      <if test="grade != null">
+        #{grade,jdbcType=INTEGER},
+      </if>
+      <if test="positi != null">
+        #{positi,jdbcType=VARCHAR},
+      </if>
+      <if test="exp != null">
+        #{exp,jdbcType=INTEGER},
+      </if>
+      <if test="sex != null">
+        #{sex,jdbcType=VARCHAR},
+      </if>
+      <if test="birthday != null">
+        #{birthday,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null">
+        #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="avatar != null">
+        #{avatar,jdbcType=VARCHAR},
+      </if>
+      <if test="qianming != null">
+        #{qianming,jdbcType=VARCHAR},
+      </if>
+      <if test="loginIp != null">
+        #{loginIp,jdbcType=VARCHAR},
+      </if>
+      <if test="loginTime != null">
+        #{loginTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="loginOldTime != null">
+        #{loginOldTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByMapSelective" parameterType="Map">
+    update tbl_user
+    <set>
+      <if test="password != null">
+        password = #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="username != null">
+        username = #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="phone != null">
+        phone = #{phone,jdbcType=VARCHAR},
+      </if>
+      <if test="qq != null">
+        qq = #{qq,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null">
+        email = #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="registrTime != null">
+        registr_time = #{registrTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="registrIp != null">
+        registr_ip = #{registrIp,jdbcType=VARCHAR},
+      </if>
+      <if test="signinNum != null">
+        signin_num = #{signinNum,jdbcType=INTEGER},
+      </if>
+      <if test="signinPoints != null">
+        signin_points = #{signinPoints,jdbcType=INTEGER},
+      </if>
+      <if test="grade != null">
+        grade = #{grade,jdbcType=INTEGER},
+      </if>
+      <if test="positi != null">
+        positi = #{positi,jdbcType=VARCHAR},
+      </if>
+      <if test="exp != null">
+        exp = #{exp,jdbcType=INTEGER},
+      </if>
+      <if test="sex != null">
+        sex = #{sex,jdbcType=VARCHAR},
+      </if>
+      <if test="birthday != null">
+        birthday = #{birthday,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null">
+        address = #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="avatar != null">
+        avatar = #{avatar,jdbcType=VARCHAR},
+      </if>
+      <if test="qianming != null">
+        qianming = #{qianming,jdbcType=VARCHAR},
+      </if>
+      <if test="loginIp != null">
+        login_ip = #{loginIp,jdbcType=VARCHAR},
+      </if>
+      <if test="loginTime != null">
+        login_time = #{loginTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="loginOldTime != null">
+        login_old_time = #{loginOldTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+	where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByUserSelective" parameterType="com.tsmask.grt.pojo.TblUser">
+    update tbl_user
+        <set>
+      <if test="password != null">
+        password = #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="username != null">
+        username = #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="phone != null">
+        phone = #{phone,jdbcType=VARCHAR},
+      </if>
+      <if test="qq != null">
+        qq = #{qq,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null">
+        email = #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="registrTime != null">
+        registr_time = #{registrTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="registrIp != null">
+        registr_ip = #{registrIp,jdbcType=VARCHAR},
+      </if>
+      <if test="signinNum != null">
+        signin_num = #{signinNum,jdbcType=INTEGER},
+      </if>
+      <if test="signinPoints != null">
+        signin_points = #{signinPoints,jdbcType=INTEGER},
+      </if>
+      <if test="grade != null">
+        grade = #{grade,jdbcType=INTEGER},
+      </if>
+      <if test="positi != null">
+        positi = #{positi,jdbcType=VARCHAR},
+      </if>
+      <if test="exp != null">
+        exp = #{exp,jdbcType=INTEGER},
+      </if>
+      <if test="sex != null">
+        sex = #{sex,jdbcType=VARCHAR},
+      </if>
+      <if test="birthday != null">
+        birthday = #{birthday,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null">
+        address = #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="avatar != null">
+        avatar = #{avatar,jdbcType=VARCHAR},
+      </if>
+      <if test="qianming != null">
+        qianming = #{qianming,jdbcType=VARCHAR},
+      </if>
+      <if test="loginIp != null">
+        login_ip = #{loginIp,jdbcType=VARCHAR},
+      </if>
+      <if test="loginTime != null">
+        login_time = #{loginTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="loginOldTime != null">
+        login_old_time = #{loginOldTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  
+</mapper>
