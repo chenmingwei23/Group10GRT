@@ -22,3 +22,4 @@ Note: **
 2. If the 'config' folder is not like the 'project structure', you need to select 'Build Path' =&gt by right-clicking 'config';
 'Use as Source Folder' added, otherwise the configuration file cannot be loaded.
 
+3. If you need to display the image, change the image address of the data.
