@@ -1,4 +1,12 @@
-# # #
+#### The Streams part ####
+
+Functions:
+
+1.Using the API offered by YouTube live streams to show the latest game stream
+
+2.Can be set by administrator
+
+3.Show ads behind live frames to make money for this website
 
 #### The discussion part
 

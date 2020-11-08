@@ -8,7 +8,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -42,12 +41,6 @@ public class TblUserController {
 	@RequestMapping("/login")
 	public String Login() {
 		return "JspPages/login";
-	}
-	
-	//score
-	@RequestMapping("/score")
-	public String score() {
-		return "JspPages/score";
 	}
 	
 	//profile set

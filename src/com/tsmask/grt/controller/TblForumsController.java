@@ -113,6 +113,11 @@ public class TblForumsController {
 //		return mav;
 	}
 	
+	//Streams
+	   @RequestMapping("/streams")
+	   public String Streams(HttpServletRequest request, Model model) { 
+	    return "JspPages/streams";
+	   }
 	//index
 	@RequestMapping("/index{id}")
 	public String PageOver(Model model,@PathVariable Integer id) {
