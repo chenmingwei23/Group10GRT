@@ -8,7 +8,7 @@
     <nav class="my-navbar" role="navigation">  
         <div class="container-fluid">  
             <div class="navbar-header">  
-                <a class="navbar-brand" href="${pageContext.request.contextPath }/forums" title="G​RAND​ R​UNETERRA​ T​AVERN​">
+                <a class="navbar-brand" href="${pageContext.request.contextPath }/streams" title="G​RAND​ R​UNETERRA​ T​AVERN​">
                 G​RAND​ R​UNETERRA​ T​AVERN
                 </a>  
             </div>  
