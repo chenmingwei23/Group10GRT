@@ -15,8 +15,14 @@
             <div class="collapse navbar-collapse" id="example-navbar-collapse"> 
                 <!-- 左边 -->
                 <ul class="nav navbar-nav">  
+<<<<<<< HEAD
                     <li><a href="${pageContext.request.contextPath }/forums">Forums</a></li>  
                     <li><a href="${pageContext.request.contextPath }/streams">Streams</a></li>  
+=======
+                    <li><a href="${pageContext.request.contextPath }/forums">Forums</a></li>
+                    <li><a href="${pageContext.request.contextPath }/score">Scores</a></li>
+                    <li><a href="${pageContext.request.contextPath }/marking">Marking</a></li>
+>>>>>>> 9250b4cbe95c07f2122463e6dc1ab12717ae0c03
                  </ul> <!-- /左边 -->
                 <!-- 右边 -->
                 <ul class="nav navbar-nav navbar-right">
