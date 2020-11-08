@@ -100,9 +100,7 @@
 			<img src="https://www.monsterenergy.com/media/uploads_image/2019/03/06/1600/800/8492ed0eab24eae41b35937510a696e8.jpg?mod=v1_f2538c15fcb143cfa3d8ecfac1d8db0b" width="480" height="320">
 		</div>
 		<div class = "text">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-			dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			The StarLadder Major, held in Berlin was the 15th Major league. Featuring 24 teams through a mixture of tournament and regional qualifiers, it had teams compete against each other for a grand prize pool of $1,000,000 USD. The Majors format has proved successful for CS:GO and Valve the games developer as their minor and major format allows teams plenty of chances to experience international competition and hone their skills for the ultimate face off.
 		</div>
 	</div>
 	
@@ -121,9 +119,7 @@
   			<img src="https://www.eslgaming.com/sites/default/files/styles/blog_big/public/20180303_Viola-Schuldner_IEM-Katowice_10251.jpg?itok=2yFTf1Ur" alt="Avatar" class="image" style="width:100%;">
 		</div>
 	  	<div class=div1>
-  			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-			dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+  			Playing for the grand prize of $500,000, Astralis and AVANGAR face off in the grand finals. Astralis rising easily during the champions stage defeating Team liquid and NRG esports easily 2-0 shows the skill and strategy their team has. However, AVANGAR is not too far behind, winning their quarter finals 2-1 and the semi’s 2-0 against team Vitality and Renegades shows just how far they have come. Fighting in a best of 3 this will not be a game to miss!
   		</div>
   		
 
@@ -175,9 +171,7 @@
   			<img src="https://e0.365dm.com/18/09/768x432/skysports-faceit-major-csgo_4426469.jpg?20180919155133" alt="Avatar" class="image" style="width:100%;">
 		</div>
 	  	<div class=div1>
-  			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-			dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+  			A semi-final to remember, NRG esports vs Astralis, both teams have come out strong in this tournament, both sweeping the quarterfinals against their opponents 2-0. Playing on Train, Overpass and Nuke will it be the American NRG Esports that can clinch the upper hand or will Astralis, hailing from Denmark be able to continue their winning streak? The winners of this game will be able to face AVANGAR in the finals be a step closer to the $500,000 prize!
   		</div>
 
 		<div style="padding-top: 75px; text-align: center; float: left;">

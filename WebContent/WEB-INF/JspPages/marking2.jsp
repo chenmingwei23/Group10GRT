@@ -102,9 +102,7 @@
 			<img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fmikestubbs%2Ffiles%2F2017%2F09%2F36053602790_1689f3e569_z.jpg" width="480" height="320">
 		</div>
 		<div class = "text">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-			dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			Dota 2 “The International” is a highlight of the e-sports community. Not only is a grand finale to the Dota 2 esports league featuring play offs in the lower “Pro Circuit” but also boasts some of the highest prize pools in e-sports history. This year teams played to compete for a grand prize pool of $34 million USD cementing the tournaments high roller status. This time the International featured 18 teams with 12 invites and 6 more through regional qualifiers.
 		</div>
 	</div>
 	
@@ -123,9 +121,7 @@
   			<img src="https://i.ytimg.com/vi/A2AEc3YhG14/maxresdefault.jpg" alt="Avatar" class="image" style="width:100%;">
 		</div>
 	  	<div class=div1>
-  			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-			dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+  			A game to be remembered, regardless of the winner we would have our first 2-time international victor. Featuring Team OG and Team Liquid. Team liquid, most notably rising through the lower bracket cleanly with almost all games being a 2-0 sweep in their favour. However, will it be enough to overcome Team OG? With an entire $15 million USD going to the victor, the stakes have never been higher!
   		</div>
   		
 
@@ -177,9 +173,7 @@
   			<img src="https://i.ytimg.com/vi/sOz9a6rFNQA/maxresdefault.jpg" alt="Avatar" class="image" style="width:100%;">
 		</div>
 	  	<div class=div1>
-  			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-			dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+  			Featuring a game from the Chongqing Major, the match between EG and Ehome has been considered an instant classic. While some may tout that it is considered “the greatest game of dota 2 ever played” theres no debate that this game deserved to be immortalised in some way. Blasting past the 1 hour mark this game proved to have a nail biting ending that any Dota fan that considers themselves an e-sports fan should miss! 
   		</div>
 
 		<div style="padding-top: 75px; text-align: center; float: left;">

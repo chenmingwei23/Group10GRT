@@ -101,9 +101,7 @@
 			<img src="https://specials-images.forbesimg.com/imageserve/5dc7d659e0af7b0006b0fce8/960x0.jpg?fit=scale" width="480" height="320">
 		</div>
 		<div class = "text">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-			dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			Worlds is the biggest League of Legends tournaments of the year and a fitting end to the esports season. Held this year in Shanghai, China LoL once again saw 22 teams compete for the title of Best LoL e-sports team. A title one will have to prove they deserve through a series of play offs and elimination rounds where teams will compete in a best of 5 system. However, it will all be worth it for a share in the grand total prize pool of $2,340,000 USD.
 		</div>
 	</div>
 	
@@ -125,9 +123,7 @@
 		</div>
 	  	<div class=div1>
 	  	<!-- Text description -->
-  			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-			dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+  			The grand finale to a year of League of legends e-sports, the moment every diehard fan of LoL has been looking forward. This year however was extra special for the home team Chinese fans as the Chinese team Suning had made it to the finals, easily breezing past Fellow Chinese JD Gaming and Top Esports 3-1. Facing them was South Korean Damwon Gaming, who similarly had ease in previous rounds winning 3-0 against fellow Koreans DRX and winning 3-1 against European G2 Esports.
   		</div>
   		
 
@@ -183,9 +179,7 @@
 		</div>
 	  	<div class=div1>
 	  	<!-- Text description -->
-  			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-			dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+  			This semi-final game featured a Chinese playoff on home turf with Top Esports and Suning facing off for a chance to fight Damwon Gaming in the finals. So far Suning hasn’t had much trouble making it to the semi finals while Top Esports had come out of a tight game against Fnatic 3-2 just the week before. An interesting game to watch to see if Top Esports have come up with anything to ensure a cleaner win this time around.
   		</div>
 
 		<div style="padding-top: 75px; text-align: center; float: left;">

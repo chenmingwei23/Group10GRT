@@ -18,7 +18,7 @@
 </head>
 <body>
  <!-- Header -->
-    <%@ include file = "header.jsp" %>
+<jsp:include page="top.jsp" flush="true"></jsp:include>
     
     <div class="col-md-8">
 		<nav>
@@ -68,24 +68,24 @@ Season One is now live on all platforms</p>
 		<nav>
 						<ul class="pagination justify-content-center">
 							<li class="page-item">
-								<a class="page-link" href="/Group10/News">1</a>
+								<a class="page-link" href="http://localhost:8080/grt/news">1</a>
 							</li>
 							<li class="page-item">
-								<a class="page-link" href="/Group10/News2">2</a>
+								<a class="page-link" href="http://localhost:8080/grt/news2">2</a>
 							</li>
 							<li class="page-item">
-								<a class="page-link" href="/Group10/News3">3</a>
+								<a class="page-link" href="http://localhost:8080/grt/news3">3</a>
 							</li>
 							<li class="page-item">
-								<a class="page-link" href="/Group10/News4">4</a>
+								<a class="page-link" href="http://localhost:8080/grt/news4">4</a>
 							</li>
 							<li class="page-item">
-								<a class="page-link" href="/Group10/News5">5</a>
+								<a class="page-link" href="http://localhost:8080/grt/news5">5</a>
 							</li>
 						</ul>
-					</nav>
+		</nav>
 	</div>
   <!-- Footer -->
-    <%@ include file = "footer.jsp" %>
+<jsp:include page="bottom.jsp" flush="true"></jsp:include>
 </body>
 </html>

@@ -18,9 +18,10 @@
 
                     <li><a href="${pageContext.request.contextPath }/forums">Forums</a></li>  
                     <li><a href="${pageContext.request.contextPath }/streams">Streams</a></li>  
-                    <li><a href="${pageContext.request.contextPath }/forums">Forums</a></li>
                     <li><a href="${pageContext.request.contextPath }/score">Scores</a></li>
                     <li><a href="${pageContext.request.contextPath }/marking">Marking</a></li>
+                    <li><a href="${pageContext.request.contextPath }/news">News</a></li>
+                    
 
                  </ul> <!-- /左边 -->
                 <!-- 右边 -->
