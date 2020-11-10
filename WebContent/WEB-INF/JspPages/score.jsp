@@ -123,6 +123,7 @@ function addRow(data) {
             td.appendChild(ele);
         }
         else if (c == 5){
+        	var link = document.createTextNode(data.name);
             var ele = document.createElement('input');
             ele.setAttribute('type', 'text');
             if (data.winner == null) {
@@ -134,9 +135,10 @@ function addRow(data) {
             td.appendChild(ele);
         }
         else if (c == 6){
-            var ele = document.createElement('input');
-            ele.setAttribute('type', 'text');
-            ele.setAttribute('value', data.name);
+        	var link = document.createTextNode(data.name); 
+            var ele = document.createElement('a');
+            ele.setAttribute('href', "www.google.com");
+            ele.appendChild(link);
             td.appendChild(ele);
         }
     }
