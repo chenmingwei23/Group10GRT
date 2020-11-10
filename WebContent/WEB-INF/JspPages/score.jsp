@@ -5,12 +5,13 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-	 <meta charset="UTF-8">
+	<meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE-edge">
   <meta name="renderer" content="webkit">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="keywords" content="ELEC5619 GROUP_10"/>
     <meta name="description" content="SSM"/>
+     <meta http-equiv="refresh" content="600">
   <title>Forunms-G​RAND​ R​UNETERRA​ T​AVERN​</title>
   	<link rel="apple-touch-icon" href="images/icon.png">
   	<link rel="icon" href="images/icon.png">
