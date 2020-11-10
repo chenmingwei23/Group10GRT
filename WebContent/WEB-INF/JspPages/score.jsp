@@ -137,7 +137,7 @@ function addRow(data) {
         else if (c == 6){
         	var link = document.createTextNode(data.name); 
             var ele = document.createElement('a');
-            ele.setAttribute('href', "www.google.com");
+            ele.setAttribute('href', "games");
             ele.appendChild(link);
             td.appendChild(ele);
         }

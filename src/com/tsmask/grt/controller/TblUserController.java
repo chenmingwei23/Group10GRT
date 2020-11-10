@@ -54,6 +54,11 @@ public class TblUserController {
 		return "JspPages/score";
 	}
 	
+	@RequestMapping("/games")
+	public String games() {
+		return "JspPages/games";
+	}
+	
 	//profile
 	@RequestMapping("/userinfo")
 	public String UserInfo() {
