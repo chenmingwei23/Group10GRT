@@ -71,9 +71,11 @@ Functions:
 
 1. Accept, store user ratings for each piece of content. Update overall rating on main page
 
-2. Accept and display user comments
+2. Includes commentary on overall tournaments and matches 
 
 3. Display new matches and their score
+
+4. Multiple tournament access through hyperlinks
 
 
 #### The Login part ####
